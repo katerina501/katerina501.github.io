@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>Создание презентации в Shower</h1>
+		<p>на тему "Технология LRS"</p>
+	</header>
+
+	<section class="slide" id="cover">
+		<h2>Технология LRS - <br> Learn Record Store</h2>
+		<p>Щемелева Мария Анатольевна, 1 курс КЭО</p>
+		<figure>
+			<img class="cover" src="pictures/pic1.png" alt="background_slide1">
+			<figcaption class="white">
+				<a href="http://fiftyfootshadows.net/">© avenis</a>
+			</figcaption>
+		</figure>
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#FFF;
+					}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Цель презентации</h2>
+		<ol>
+			<li>Познакомиться с технологией LRS </li>
+			<li>Выявить ее достоинства и недостатки</li>
+			<li>Проанализировать изменения для обучающихся при использовании этой технологии</li>
+			<li>Сформулировать возможности, которые она дает</li>
+			<li>Найти ПО, которое поможет организовать работу  для ЭО</li>
+		</ol>
+		<p class="note"><hr>avenis</p>
+	</section>
+
+	<section class="slide">
+		<h2>Суть технологии</h2>
+		<p>
+			LRS – место хранения образовательных материалов, а также LRS получает и возвращает данные о опыте и достижения учащихся. <br> LRS используется в стандарте CanAPI (xAPI), который обходится без СДО, LRS хранит все результаты обучения. Другими словами LRS — это база данных, куда сохраняются специфические xAPI-выражения (т.е. действия каждого учащегося).
+		</p>
+
+	</section>
+
+	<section class="slide">
+		<h2>Достоинства LRS</h2>
+		<p> LRS позволяет отслеживать широкий спектр курсов и практик, эти данные можно разделять между другими системами для отчетности и аналитики, следовательно полученные данные можно анализировать для оценки эффективности учебных курсов.</p>	
+	</section>
+	
+	<section class="slide" id="picture">
+		<h2>Схема работы LRS</h2>
+		<figure>
+			<img class="cover" src="pictures/pic2.png" alt="scheme_pic2.png">
+			<figcaption class="white">
+				<a href="http://fiftyfootshadows.net/">© avenis</a>
+			</figcaption>
+		</figure>
+		<style>
+			#picture h2 {
+				color:#212121;
+				}
+		</style>
+	</section>
+	<section class="slide">
+		<h2>Что изменится в процессе подготовки обучающихся с использованием этой технологии</h2>
+		<ol>
+			<li>LRS позволяет работать xAPI в оффлайне</li>
+			<li>Обучающийся сможет иметь собственный LRS, который позволит хранить весь учебный опыт по принципу аккаунта в соцсети</li>
+			
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Выводы </h2>
+		<ol>
+			<li>Изучена технология LRS</li>
+			<li class="next">Изучена технология создания презентации в виде Web-документа</li>
+			<li class="next">Освоен инструмент Shower</li>
+			
+		</ol>
+	</section>
+
+	<section class="slide grid">
+		<h2>Спасибо за внимание!</h2>
+	</section>
+
+	<section class="slide" id="see-more">
+		<h2 class="shout">
+			<img src="pictures/logo.svg" alt="Shower logo">
+			<a href="https://github.com/ctel-master/masters-2017-introduction-mavenis/tree/master/lrs-in-shower">See more on GitHub</a>
+		</h2>
+		<style>
+			#see-more h2 {
+				font-size:100px
+				}
+			#see-more img {
+				width:0.72em;
+				height:0.72em;
+				}
+		</style>
+	</section>
+
+	<footer class="badge">
+		<a href="https://github.com/ctel-master/masters-2017-introduction-mavenis/tree/master/lrs-in-shower">Fork me on GitHub</a>
+	</footer>
+
+	<div class="progress"></div>
+
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2018 фмутшы -->
+
+</body>
+</html>
